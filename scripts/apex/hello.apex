@@ -8,7 +8,3 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
-
-
-AbstractMathOperationBad op = new MyMathOperationBad();
-System.debug(op.add(10, 6));
